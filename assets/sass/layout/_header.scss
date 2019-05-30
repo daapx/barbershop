@@ -1,0 +1,26 @@
+.header{
+    background-image: url(../images/post-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.header__title{
+    color: $white;
+    font-size: $fs-xx-large;
+    font-weight: $fw-bold;
+    font-style: italic;
+    padding-top: 50vh;
+    margin-left: 50%;
+    transform: translate(-40%, -10vh);
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .header__title{
+        font-size: $fs-x-large;
+        margin-left: 40%;
+        transform: translate(-30%, -10vh);
+    }
+}

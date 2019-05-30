@@ -1,0 +1,25 @@
+.main__title{
+    font-size: $fs-large;
+    font-weight: $fw-regular;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.main__p{
+    line-height: 2.5;
+}
+
+.main__buttons{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 767px){
+    .main__title{
+        font-size: $fs-medium;
+    }
+
+    .main__buttons{
+        text-align: center;
+    }
+}

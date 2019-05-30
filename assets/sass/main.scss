@@ -4,6 +4,11 @@
 
 @import 'base/reset';
 @import 'base/typography';
+@import 'base/base';
 
 @import 'layout/menu';
-@import 'layout/hero-section';
+@import 'layout/header';
+@import 'layout/main-section';
+@import 'layout/footer';
+
+@import 'components/buttons';

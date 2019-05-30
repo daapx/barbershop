@@ -9673,6 +9673,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
+body {
+  color: #6c6e70;
+  font-weight: 300;
+  font-size: 16px;
+}
+
 .navbar--eerie-black {
   background-color: #121619 !important;
 }
@@ -9694,16 +9700,82 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/post-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center;
+  height: 120vh;
 }
 
 .header__title {
   color: #fff;
   font-size: 70px;
   font-weight: 700;
+  font-style: italic;
   padding-top: 50vh;
   margin-left: 50%;
-  transform: translate(-50%, -25vh);
+  transform: translate(-40%, -10vh);
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .header__title {
+    font-size: 30px;
+    margin-left: 40%;
+    transform: translate(-30%, -10vh);
+  }
+}
+.main__title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.main__p {
+  line-height: 2.5;
+}
+
+.main__buttons {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  .main__title {
+    font-size: 16px;
+  }
+
+  .main__buttons {
+    text-align: center;
+  }
+}
+.footer {
+  background-color: #121619;
+  text-align: center;
+}
+
+.footer__logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #6c6e70;
+  border: 2px solid #6c6e70;
+  border-radius: 25px;
+  height: 50px;
+  color: #fff;
+  margin-left: 10px;
+}
+.button:hover {
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+.button:focus {
+  background-color: #6c6e70;
+  border-color: #d1d1d1;
+}
+
+.button--small {
+  padding: 0 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
