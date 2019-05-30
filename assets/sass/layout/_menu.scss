@@ -1,0 +1,17 @@
+.navbar--eerie-black{
+    background-color: $eerie-black !important;
+}
+
+.navbar__logo{
+    width: 150px;
+}
+
+.navbar__link{
+    color: $white !important;
+    opacity: 1;
+}
+
+.navbar__link--activo{
+    color: $fuzzy-wuzzy !important;
+}
+
