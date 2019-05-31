@@ -1,0 +1,48 @@
+.autor{
+    padding: 50px 0;
+    border-top: 2px solid $platinum;
+    margin-bottom: 20px;
+}
+
+.autor__contenedor{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+
+    .autor__contenedor-imagen, .autor__descripcion{
+        width: 50%;
+    }
+
+    .autor__contenedor-imagen{
+        padding-right: 20px;
+    }
+
+    .autor__descripcion{
+        padding: 0 20px;
+    }
+
+    .autor__link{
+        display: block;
+    }
+}
+
+
+.autor__imagen{
+    border-radius: 50%;
+    border: 1px solid $light-gray;
+}
+
+.autor__nombre{
+    font-family: $playfair;
+    font-size: $fs-x-large;
+    font-weight: $fw-bold;
+    font-style: italic;
+    color: $eerie-black
+}
+
+.author__p{
+    font-size: $fs-small;
+    color: $nickel;
+    align-self: center;
+}
