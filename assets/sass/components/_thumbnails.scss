@@ -1,0 +1,10 @@
+.thumbnail{
+    border-radius: 50%;
+    border: 1px solid $light-gray;
+}
+
+@media (max-width: 767px){
+    .thumbnail{
+        width: 80%;
+    }
+}

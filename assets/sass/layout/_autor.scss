@@ -1,7 +1,6 @@
 .autor{
-    padding: 50px 0;
+    padding: 70px 0;
     border-top: 2px solid $platinum;
-    margin-bottom: 20px;
 }
 
 .autor__contenedor{
@@ -16,6 +15,7 @@
 
     .autor__contenedor-imagen{
         padding-right: 20px;
+        text-align: center;
     }
 
     .autor__descripcion{
@@ -24,13 +24,8 @@
 
     .autor__link{
         display: block;
+        font-size: $fs-large;
     }
-}
-
-
-.autor__imagen{
-    border-radius: 50%;
-    border: 1px solid $light-gray;
 }
 
 .autor__nombre{
@@ -45,4 +40,20 @@
     font-size: $fs-small;
     color: $nickel;
     align-self: center;
+}
+
+@media (max-width: 767px){
+    .autor__contenedor{
+        flex-direction: column;
+        align-items: center;
+        .autor__contenedor-imagen{
+            padding: 0px;
+            margin-bottom: 20px;
+        }
+    
+        .autor__descripcion{
+            padding: 0;
+            text-align: center;
+        }
+    }
 }

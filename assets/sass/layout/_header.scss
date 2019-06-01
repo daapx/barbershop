@@ -17,10 +17,21 @@
     text-align: center;
 }
 
+.header__arrow{
+    color: $white;
+    font-size: $fs-xx-large;
+    font-weight: $fw-bold;
+}
+
 @media (max-width: 767px){
     .header__title{
         font-size: $fs-x-large;
-        margin-left: 40%;
-        transform: translate(-30%, -10vh);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .header{
+        background-position-x: -300px;
+        height: 105vh;
     }
 }

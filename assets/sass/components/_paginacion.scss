@@ -1,0 +1,33 @@
+.paginacion__link{
+    border-color: $light-gray;
+    color: $eerie-black;
+    background-color: $white;
+    font-weight: $fw-regular;
+    padding: 0.75em 1em;
+
+    &:hover{
+        background-color: $nickel;
+        color: $white;
+        border-color: $nickel;
+        z-index: 10;
+    }
+}
+
+.paginacion__link--primero{
+    border-top-left-radius: 1.5em !important;
+    border-bottom-left-radius: 1.5em !important;
+}
+
+.paginacion__link--ultimo{
+    border-top-right-radius: 1.5em !important;
+    border-bottom-right-radius: 1.5em !important;
+}
+
+.paginacion__link--inactivo{
+    color: $light-gray;
+}
+@media (max-width: 767px){
+    .paginacion{
+        font-size: $fs-small;
+    }
+}

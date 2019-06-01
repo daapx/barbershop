@@ -1,0 +1,23 @@
+.link{
+    color: $ruddy-pink;
+
+    &:hover{
+        color: $raisin-black;
+    }
+
+    &:active{
+        color: $platinum;
+    }
+}
+
+.link--secundary{
+    color: $raisin-black;
+}
+
+.link--light{
+    color: $light-gray;
+}
+
+.link--dark{
+    color: $eerie-black;
+}
